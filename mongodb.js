@@ -1,7 +1,8 @@
 var MongoClient = require('mongodb').MongoClient;
 var ObjectID = require('mongodb').ObjectID;
 
-var url = 'mongodb://aiqrate-telemetry:DlU6lydNE26WSdf0wlMLzeAdqnADYMgVjWKnXz4SYlN5zZhYoLggFl6qh3Bbk6HgNptHuP4CjYSynYl2Dhqr4Q==@aiqrate-telemetry.mongo.cosmos.azure.com:10255/?ssl=true&appName=@aiqrate-telemetry@';
+// URL + connection string
+var url = '';
 var dbName = 'admin';
 var collectionName = 'telemetry';
 

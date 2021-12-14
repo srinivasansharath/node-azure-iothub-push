@@ -1,6 +1,6 @@
 module.exports = {
     factroyId: "IndustryX",
-    machineId: "Intel-IoT-Machine-1",
+    machineId: "IoT-Machine-1",
     partNumber: "ASIDFH09834",
     partDescription: "Steering Wheel",
     serialNumber: "238702348",
