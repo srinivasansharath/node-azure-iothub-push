@@ -5,7 +5,7 @@ var Protocol = require('azure-iot-device-amqp').AmqpWs;
 var Client = require('azure-iot-device').Client;
 var Message = require('azure-iot-device').Message;
 
-var connectionString = 'HostName=iotc-b8696c51-a9ac-4738-9d6f-37259ff80089.azure-devices.net;DeviceId=Sharat_testdevice;SharedAccessKey=zQdkC9P5MOclQPlcSK3cyA7D7zM1cpicaDbjhq00VNk=';
+var connectionString = '';
 
 var client = Client.fromConnectionString(connectionString, Protocol);
 
